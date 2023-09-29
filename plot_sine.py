@@ -5,7 +5,7 @@ x = np.linspace(0, 1, 1000)
 
 fig, ax = plt.subplots()
 
-ax.plot(x, np.sin(2 * np.pi * x))
+ax.plot(x, np.sin(2 * np.pi * x), marker='.')
 
 ax.set(
     xlabel="t / s",
