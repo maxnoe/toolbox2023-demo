@@ -4,5 +4,7 @@ def fibonacci(n):
     
     return fibonacci(n - 1) + fibonacci(n - 2)
 
-for i in range(10):
-    print(fibonacci(i))
+
+if __name__ == "__main__":
+    for i in range(10):
+        print(fibonacci(i))
