@@ -10,6 +10,7 @@ ax.plot(x, np.sin(4 * np.pi * x), color='red', marker='.')
 ax.set(
     xlabel="t / s",
     ylabel="U / V",
+    title="Sine",
 )
 
 fig.savefig("plot.pdf")
