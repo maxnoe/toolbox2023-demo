@@ -1,11 +1,15 @@
-all: plot.pdf
+all: build/plot.pdf
 
 
-plot.pdf: plot_sine.py
+build/plot.pdf: plot_sine.py | build
 	python plot_sine.py
 
+
+build:
+	mkdir -p build
+
 clean:
-	rm -f plot.pdf
+	rm -rf build
 
 
 .PHONY: all clean

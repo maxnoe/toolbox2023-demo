@@ -19,4 +19,4 @@ ax.set(
     title="Sine",
 )
 
-fig.savefig("plot.pdf")
+fig.savefig("build/plot.pdf")
