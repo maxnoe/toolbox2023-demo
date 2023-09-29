@@ -7,4 +7,9 @@ fig, ax = plt.subplots()
 
 ax.plot(x, np.sin(2 * np.pi * x))
 
+ax.set(
+    xlabel="t / s",
+    ylabel="U / V",
+)
+
 fig.savefig("plot.pdf")
