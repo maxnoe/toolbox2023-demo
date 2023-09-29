@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 
 x = np.linspace(0, 1, 1000)
 
-fig, ax = plt.subplots()
+fig, ax = plt.subplots(layout="constrained")
 
 ax.plot(x, np.sin(4 * np.pi * x), color='red', marker='.')
 
